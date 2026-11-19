@@ -3,7 +3,7 @@ on: [push, pull_request]
 
 jobs:
   run-and-test:
-    runs-on: ubuntu-latest:
+    runs-on: ubuntu-latest
     steps:
       - users: actions/chechout@v4
       - name: Set Up Python
